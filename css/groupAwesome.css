@@ -4,13 +4,16 @@
 }
 */
 
-.blog-thumb #dmanaster {
-	height: 140px;
-	width: 360px;
+.thumbpics {
+	margin: -30px 0 30px -30px;
+	padding: 0;
+	height: 120px;
+	width: 360px%;
 	background-image: url('../img/David_Manaster.jpg');
-	background-position: center;
 	background-size: cover;
-	background-width: 360px;
-	
-
+	position: relative;
+	right: 0;
+}
+li#david_manaster, li#daniel_friedman, li#alex_au, li#jennifer_campbell {
+	padding-right: 0;
 }
