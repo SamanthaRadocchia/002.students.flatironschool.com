@@ -1,0 +1,31 @@
+.student_name {
+	text-align: center;
+	font-size: 72px;
+	margin-top: 30px;
+}
+
+
+img.id_photo {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+nav li {
+	display: inline-block;
+	width: 33%;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+div.about_me {
+	float: left;
+	width: 50%;
+}
+
+div.my_story {
+	float: left;
+}
