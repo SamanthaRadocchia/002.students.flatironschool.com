@@ -1,0 +1,108 @@
+.ib_main_header {
+	padding: 0;
+	padding-top: 10px;
+	font-size: 40px;
+}
+
+.student_pic {
+	border-radius: 100px;
+	web-kit border-radius: 100px;
+	moz border-radius: 100px;
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+}
+
+
+.page-title {
+	/*background: url(../img/plaza_espana.jpg) no-repeat center center;*/
+	margin-bottom: 0;
+	padding: 0;
+	height: 320px;
+}
+
+.ib-social-icons {
+	font-size: 40px;
+	padding: 0 10px;
+}
+
+.social-icons {
+	padding:20px 0;	
+}
+
+.title-div {
+	background: white;
+	width: 500px;
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+}
+
+.icon-twitter:hover {
+	color: #4099FF;
+}
+
+.icon-linkedin-sign:hover {
+	color: #4875B4;
+}
+
+.icon-github:hover {
+	color: black;
+}
+
+.icon-edit:hover {
+	color: #FFCC00;
+}
+
+.icon-rss:hover {
+	color: #009933;
+}
+
+.link-subs li{
+	display: inline;
+}
+
+.link-subs ul {
+	text-align: center;
+}
+
+.section-testimonials-curriculum {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.testimonials h3 {
+	font-size: 16px;
+	line-height: 140%;
+}
+
+.section-title {
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 30px;
+    border-top: solid 1px #eee;
+    border-bottom: solid 1px #eee;
+}
+
+.services h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 295px;
+}
+
+.services first-child {
+    width: 100%;
+    padding-top: none;
+    border-top: none;
+}
+
+.services {
+	width: 100%;
+}
