@@ -1,4 +1,16 @@
-.attachment-blog-thumb {
+/*li.home-blog-post .attachment-blog-thumb {
 	height: 140px;
 	width: 360px;
+}
+*/
+
+.blog-thumb #dmanaster {
+	height: 140px;
+	width: 360px;
+	background-image: url('../img/David_Manaster.jpg');
+	background-position: center;
+	background-size: cover;
+	background-width: 360px;
+	
+
 }
