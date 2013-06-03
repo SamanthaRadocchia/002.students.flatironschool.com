@@ -134,7 +134,7 @@ blockquote p {
 .non-semantic-protector {
     position: relative;
     z-index: 1;
-    background: url(images/ribbon-bg-dark.png) no-repeat 0 24px;
+    background: url(../img/ribbon-bg-dark.png) no-repeat 0 24px;
 }
 
 /* ===[ Services Styles ]===================================================== */
