@@ -14,6 +14,6 @@
 	position: relative;
 	right: 0;
 }
-li#david_manaster, li#daniel_friedman, li#alex_au, li#jennifer_campbell {
+li.home-blog-post{
 	padding-right: 0;
 }
