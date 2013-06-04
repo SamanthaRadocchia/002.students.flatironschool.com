@@ -1242,7 +1242,7 @@ h3#comments {
 .pro-title h4 {
     display: block float:left;
     width: 295px;
-    background: url(images/design-repeat.gif) right center repeat-x;
+    background: url(../img/design-repeat.gif) right center repeat-x;
 }
 
 .pro-title h4 span {
@@ -1259,7 +1259,7 @@ h3#comments {
     font-weight: bold;
     display: block float:left;
     width: 295px;
-    background: url(images/design-repeat.gif) right center repeat-x;
+    background: url(../img/design-repeat.gif) right center repeat-x;
 }
 
 .pro-title h3 span {
@@ -1465,7 +1465,7 @@ h3#comments {
 .non-semantic-protector {
     position: relative;
     z-index: 1;
-    background: url(images/ribbon-bg.png) no-repeat 0 24px;
+    background: url(../img/ribbon-bg.png) no-repeat 0 24px;
     display: none;
 }
 
