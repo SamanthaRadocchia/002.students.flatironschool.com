@@ -175,7 +175,11 @@ SOCIAL ICONS
 .bottom_social_icon, .bottom_social_icon li{list-style:none; padding:0; margin:0; float:left}
 .bottom_social_icon{float:left; width:100%}
 .bottom_social_icon li a{display:block; text-indent:-99999999px; margin:0 7px 20px 0; width:32px; height:32px}
+<<<<<<< HEAD
 .bottom_social_icon li.twitter a{background:url(../img/b_icon_twitter.png) no-repeat center}
+=======
+.bottom_social_icon li.twitter a{background:url(/img/b_icon_twitter.png) no-repeat center}
+>>>>>>> 7251c1b063c19a354d3c8d962ba5de83c6fbbe14
 .bottom_social_icon li.facebook a{background:url(../img/b_icon_facebook.png) no-repeat center}
 .bottom_social_icon li.dribbble a{background:url(../img/b_icon_dribbble.png) no-repeat center}
 .bottom_social_icon li.delicious a{background:url(../img/b_icon_delicious.png) no-repeat center}
