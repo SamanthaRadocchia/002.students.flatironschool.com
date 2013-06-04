@@ -1,0 +1,37 @@
+#student_pic {
+   float: left;
+   border-color: black;
+   border_style: solid;
+   border-width: 25px
+}
+
+/*.profile_content {
+   border: 100px;
+}*/
+
+.profile_content {
+   margin-left: 40%;
+   border-left: 2px;
+   padding-left: 2px
+}
+
+.profile_quote {
+    position: relative;
+    font-family: 'Merriweather', Georgia, serif;
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 10px;
+    padding: 5px 10px 5px 50px;
+}
+
+.profile_quote:before {
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    content: "\f0e5";
+    font-family: "FontAwesome";
+    display: block;
+    color: #bbb;
+
+}
