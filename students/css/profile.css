@@ -148,3 +148,7 @@ table tbody tr td {
 border:none;
 }
 
+a i img {
+  height: 35px;
+  width: 35px;
+}
