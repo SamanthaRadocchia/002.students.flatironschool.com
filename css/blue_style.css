@@ -51,6 +51,7 @@ ROOT
 ---------------------------*/
 ul, ol{margin:0 0 1.5em 20px; line-height:1.5em}
 ul ul, ol ol, ul ol, ol ul{margin:0 0 0 20px}
+.indent_li {margin-left: 35px; font-style: italic;}
 dl{margin-bottom:1.5em}
 dt{font-weight:bold}
 dt:after{content:":"}
