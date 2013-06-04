@@ -125,6 +125,7 @@ NAVIGATION
 FIGURES & IMAGES
 ---------------------------*/
 img, figure img, figure object, figure embed {margin-bottom : .75em; max-width : 100%; }
+#schmaus_profile {border-radius: 25% 25%}
 
 /*--------------------------
 GRID LIST WITH THUMBNAILS
