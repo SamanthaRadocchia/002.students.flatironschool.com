@@ -345,9 +345,14 @@ div#middle {
 .sm_links_icons:hover {width: 70px; height: 70px;}
 
 /*ALISA'S CUSTOM CSS*/
-#alisa_profile {z-index: 100; border-radius: 25% 25%;}
-#alisa_profile:hover {z-index: 40; background: url(../img/alisa_dazed.jpg) no-repeat;}
+#alisa_profile {
+  border-bottom-left-radius: 25%;
+  border-top-right-radius: 25%;}
 
+#alisa_profile:hover {
+  display: block;
+  border-left-radius: 50%;
+  border-top-right-radius: 50%;}
 
 .sm_icons img {margin: 0 10px; float: left; position: static;}
 .sm_links_icons:hover {width: 70px; height: 70px;}
