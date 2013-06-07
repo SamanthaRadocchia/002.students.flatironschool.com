@@ -1,6 +1,6 @@
 .ib_main_header {
 	padding: 0;
-	padding-top: 10px;
+	margin-top: 30px;
 	font-size: 40px;
 }
 
@@ -8,17 +8,33 @@
 	border-radius: 100px;
 	web-kit border-radius: 100px;
 	moz border-radius: 100px;
-	width: 150px;
-	height: 150px;
-	margin-top: 20px;
+	width: 140px;
+	height: 140px;
+	top: -212px;
+	left: 41.07%;
+	border: 2px solid white;
+  margin-top: 205px;
 }
 
 
-.page-title {
-	/*background: url(../img/plaza_espana.jpg) no-repeat center center;*/
+.page-title, .top-page-title {
+	/*background: url(../img/plaza_espana.jpg) no-repeat top center;*/
 	margin-bottom: 0;
 	padding: 0;
-	height: 320px;
+	height: 275px;
+	text-align: bottom;
+}
+
+.page-title {
+	position: relative;
+	vertical-align:bottom;
+}
+
+.top-page-title {
+	background: url(../img/nyc.jpg) no-repeat top center;
+	background-size: 100% 100%;
+	margin-bottom: 100px;
+	text-align: center;
 }
 
 .ib-social-icons {
@@ -39,11 +55,11 @@
 }
 
 .icon-twitter:hover {
-	color: #4099FF;
+	color: #06ADE8;
 }
 
 .icon-linkedin-sign:hover {
-	color: #4875B4;
+	color: #1F83B9;
 }
 
 .icon-github:hover {
@@ -58,6 +74,10 @@
 	color: #009933;
 }
 
+.link-subs {
+  padding-top: 10px;
+}
+
 .link-subs li{
 	display: inline;
 }
@@ -66,9 +86,17 @@
 	text-align: center;
 }
 
+.link-subs ul a:hover {
+  color: #37C5FD;
+}
+
 .section-testimonials-curriculum {
     padding-top: 40px;
     padding-bottom: 50px;
+}
+
+.quote-div {
+  padding: 15px 0;
 }
 
 .testimonials h3 {
@@ -81,9 +109,9 @@
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
     text-align: center;
-    padding: 30px;
+    padding-top: 35px;
     border-top: solid 1px #eee;
     border-bottom: solid 1px #eee;
 }
@@ -105,4 +133,23 @@
 
 .services {
 	width: 100%;
+}
+
+.go-to-top {
+	text-align: right;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+
+.about-text {
+	width: 500px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.about-text p {
+	font-size: 20px;
+	line-height: 130%;
+	border-top: none;
+
 }
