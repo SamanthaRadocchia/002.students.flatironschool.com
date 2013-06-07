@@ -2852,9 +2852,3 @@ input.hs-button.primary.large{
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
 }
-
-
-
-/*CUSTOM CSS - MATTHEW SCHMAUS*/
-#container_crop {width: 300px; height: 300px; overflow: hidden;}
-#schmaus_profile:hover {position:relative; top: -300px;}

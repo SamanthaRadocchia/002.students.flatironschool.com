@@ -342,8 +342,8 @@ div#middle {
 
 
 /*MATT'S CUSTOM CSS*/
-#container_crop {width: 300px; height: 300px; overflow: hidden;}
-#schmaus_profile:hover {position:relative; top: -300px;}
+#container_crop {width: auto; height: 300px; overflow: hidden;}
+#schmaus_profile:hover {width: auto; height: auto; position:relative; top: -300px;}
 
 .sm_icons img {margin: 0 10px; float: left; position: static;}
 .sm_links_icons:hover {width: 70px; height: 70px;}
