@@ -352,11 +352,9 @@ div#middle {
   -moz-border-top-right-radius: 25%;
   -webkit-border-top-right-radius: 25%;
   border-top-right-radius: 25%;
-  
-  -webkit-box-shadow: 3px 2px #8711ff;
-  -moz-box-shadow: 3px 2px #8711ff;
-  box-shadow: 3px 2px #8711ff;
-
+  -webkit-box-shadow: 5px 5px 20px #2583e4;
+  -moz-box-shadow: 5px 5px 20px #2583e4;
+  box-shadow: 5px 5px 20x #2583e4;
   width: 300px; 
   height: 300px; 
   verflow: hidden;}
