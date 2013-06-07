@@ -17,7 +17,7 @@
 }
 
 
-.page-title, .top-page-title {
+.page-title, .top-page-title, .top-page-title-jack {
 	/*background: url(../img/plaza_espana.jpg) no-repeat top center;*/
 	margin-bottom: 0;
 	padding: 0;
@@ -31,8 +31,15 @@
 }
 
 .top-page-title {
-	background: url(../img/nyc.jpg) no-repeat top center;
-	background-size: 100% 100%;
+	background: url(../img/stl.jpg) no-repeat top center;
+	background-size: cover;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.top-page-title-jack {
+	background: url(../img/stl.jpg) no-repeat top center;
+	background-size: cover;
 	margin-bottom: 100px;
 	text-align: center;
 }
