@@ -148,3 +148,14 @@ table tbody tr td {
 border:none;
 }
 
+#dr_image {
+  border-radius: 0px 25px 0px 25px;
+  box-shadow: 10px 10px 5px #888888;
+  background:transparent url('http://cdn.memegenerator.net/instances/250x250/38038047.jpg') no-repeat;
+}
+
+#dr_image:hover {
+border-radius: 25px 0px 25px 0px;
+background: url('http://cdn.memegenerator.net/instances/250x250/38038047.jpg' no-repeat);
+}
+
