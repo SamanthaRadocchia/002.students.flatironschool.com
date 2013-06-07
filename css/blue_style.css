@@ -126,7 +126,6 @@ NAVIGATION
 FIGURES & IMAGES
 ---------------------------*/
 img, figure img, figure object, figure embed {margin-bottom : .75em; max-width : 100%; }
-#schmaus_profile {border-radius: 25% 25%}
 
 /*--------------------------
 GRID LIST WITH THUMBNAILS
@@ -340,3 +339,15 @@ div#middle {
   margin-right: 10px;
   padding-left: 5px;
 }
+
+
+/*MATT'S CUSTOM CSS*/
+#blue_profile {border-radius: 25% 25%}
+#blue_profile:hover {border-radius: 50% 50%;}
+
+.sm_icons img {margin: 0 10px; float: left; position: static;}
+.sm_links_icons:hover {width: 70px; height: 70px;}
+
+
+
+
