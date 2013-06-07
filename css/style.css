@@ -1566,6 +1566,7 @@ body.students .home-blog {
 
 body.students ul li.home-blog-post{
     list-style-type:none;
+    height: 600px;
 }
 
 .home-blog-post {
@@ -1616,6 +1617,9 @@ body.students ul li.home-blog-post{
     -moz-transition: .1s ease-in;
     -o-transition: .1s ease-in;
     transition: .1s ease-in;
+    position: relative;
+    overflow: hidden;
+    height: 310px;
 }
 
 .home-blog-post .blog-thumb img {
