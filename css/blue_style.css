@@ -345,20 +345,15 @@ div#middle {
 .sm_links_icons:hover {width: 70px; height: 70px;}
 
 /*ALISA'S CUSTOM CSS*/
-#container_crop {
-  -webkit-border-bottom-left-radius: 25%;
-  -moz-border-bottom-left-radius: 25%;
-  border-bottom-left-radius: 25%;
-  -moz-border-top-right-radius: 25%;
-  -webkit-border-top-right-radius: 25%;
-  border-top-right-radius: 25%;
-  -webkit-box-shadow: 5px 5px 20px #2583e4;
-  -moz-box-shadow: 5px 5px 20px #2583e4;
-  box-shadow: 5px 5px 20x #2583e4;
+#alisa_profile {
+  background-image: url(../img/Alisa_pic1.png);
+  -webkit-border-radius: 12% 12%;
+  -moz-border-radius: 12% 12%;
+  border-radius: 12% 12%;
+  -webkit-box-shadow: 5px 5px 20px #419fff;
+  -moz-box-shadow: 5px 5px 20px #419fff;
+  box-shadow: 5px 5px 20x #419fff;
   width: 300px; 
-  height: 300px; 
-  verflow: hidden;}
-#alisa_profile:hover {position:relative; top: -300px;}
-
-.sm_icons img {margin: 0 10px; float: left; position: static;}
-.sm_links_icons:hover {width: 70px; height: 70px;}
+  height: 300px;}
+#alisa_profile:hover {
+  background-image: url(../img/Alisa_pic2.png);}
