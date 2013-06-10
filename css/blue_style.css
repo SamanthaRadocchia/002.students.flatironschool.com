@@ -344,16 +344,46 @@ div#middle {
 .sm_icons img {margin: 0 10px; float: left; position: static;}
 .sm_links_icons:hover {width: 70px; height: 70px;}
 
+
 /*ALISA'S CUSTOM CSS*/
-#alisa_profile {
-  background-image: url(../img/Alisa_pic1.png);
-  -webkit-border-radius: 12% 12%;
-  -moz-border-radius: 12% 12%;
-  border-radius: 12% 12%;
+/*#container_crop{
+  -webkit-border-radius: 15% 15%;
+  -moz-border-radius: 15% 15%;
+  border-radius: 15% 15%;
   -webkit-box-shadow: 5px 5px 20px #419fff;
   -moz-box-shadow: 5px 5px 20px #419fff;
   box-shadow: 5px 5px 20x #419fff;
-  width: 300px; 
-  height: 300px;}
+  max-width: 300px;
+  max-height: 300px;
+
+}
 #alisa_profile:hover {
-  background-image: url(../img/Alisa_pic2.png);}
+  image: url(../img/alisa_pic.png) no-repeat;
+  width: auto; 
+  height: auto; 
+  position: relative;
+  top: -300px;
+  overflow: hidden;}*/
+
+#container_crop{
+  background: url(../img/alisa_pic.png) no-repeat;
+  -webkit-border-radius: 15% 15%;
+  -moz-border-radius: 15% 15%;
+  border-radius: 15% 15%;
+  -webkit-box-shadow: 5px 5px 20px #419fff;
+  -moz-box-shadow: 5px 5px 20px #419fff;
+  box-shadow: 5px 5px 20x #419fff;
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+  overflow: hidden;}
+#alisa_profile:hover {
+  width: auto; 
+  height: auto; 
+  position: relative;
+  top: -300px;
+  overflow: hidden;}
+
+
+
+
