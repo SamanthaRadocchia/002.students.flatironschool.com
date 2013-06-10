@@ -1,0 +1,74 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.student_profile hr {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.student_profile h2 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.student_profile img {
+    float: left;
+    margin-right: 13px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    /*border:5px solid #F4FA58;*/
+    border: 5px solid #E6E6E6;
+    /*-webkit-box-shadow: #F2F2F2 3px 3px 3px;
+    -moz-box-shadow: #F2F2F2 3px 3px 3px; 
+    box-shadow: #F2F2F2 3px 3px 3px;*/
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.student_profile img:hover {
+    -webkit-transform: scale(0.5) rotate(180deg);
+    -moz-transform: scale(0.5) rotate(180deg);
+    transform: scale(0.5) rotate(180deg);
+}
+
+
+.student_profile h2 {
+    padding: 0px 10px 0px 0px;
+}
+
+.services p {
+    border-top: 0;
+    margin-top: 0;
+}
+
+.services h3 {
+    border-bottom: 1px dotted #e6e6e6;
+    margin-bottom: 15px;
+}
+
+.student_profile h1 {
+    margin: 0;
+    color: #00BFFF;
+}
+
+.chirp p {
+    margin: 0 auto;
+}
+
+.twitter-handle {
+    margin-bottom: 0;
+}
+
+
+/*.ok-text-column-4 p {
+    margin-top: 5px;
+}*/
+
+.section {
+    margin-top: 5px;
+}
+
