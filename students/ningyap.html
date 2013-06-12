@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -8,21 +9,26 @@
   <title>The Flatiron School</title>
 
   <link rel='stylesheet' href="../css/style.css" type='text/css' media='all' />
-  <!-- <link rel='stylesheet' href="css/style-dark.css" type='text/css' media='all' /> -->
   <link rel='stylesheet' href="../css/media-queries.css" type='text/css' media='all' />
   <link rel='stylesheet' href="../css/flexslider.css" type='text/css' media='screen' />
   <link rel='stylesheet' href="../css/font-awesome.css" type='text/css' media='screen' />
   <link rel='stylesheet' id='google_merriweather-css'  href='http://fonts.googleapis.com/css?family=Merriweather:400,700&ver=3.5' type='text/css' media='all' />
-  <link rel="apple-touch-icon" href="../img/apple-touch-icon.png" />
-  <script type='text/javascript' src="js/comment-reply.min.js"></script>
-  <script type='text/javascript' src="js/jquery.js"></script>
-  <script type='text/javascript' src="js/chirp.min.js"></script>
-  <style type="text/css">a{color:#60BDDB}</style>
-  <link rel="stylesheet" href="ning_style.css" type="text/css" media="screen">
 
+  <script type='text/javascript' src="../js/jquery.js"></script>
+  <script type='text/javascript' src="../js/chirp.min.js"></script>
+  <script type='text/javascript' src="../js/smooth-scroll.js"></script>
+
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+<style>
+.top-page-title {
+  background: url(../img/ning_jump.jpeg) no-repeat top left;
+
+}
+</style>
 </head>
 
-<body class="home page students">
+<body id="scroll-header" class="home page students">
+
   <!-- Begin Main Wrapper -->
   <div class="main-wrapper">
     <!-- Begin Header -->
@@ -77,104 +83,244 @@
         </div>
         <div class="clear"></div>
       </div>
+
+      <div class="link-subs">
+        <span>
+          <img src="../img/student-icons/swiss-army-knife.png" style="width: 16px;" /> Ning Yap</span>
+
+        <ul>
+          <li><a href="#scroll-about">About</a></li>
+          <li>|</li>
+          <li><a href="#scroll-coder-cred">Coder Cred</a></li>
+          <li>|</li>
+          <li><a href="#scroll-recently">Recently</a></li>
+          <li>|</li>
+          <li><a href="#scroll-favorites">Interests</a></li>
+        </ul>
+      </div>
     </div>
     <!-- End Header -->
 
-        <!-- Begin Content -->
-   <div class="container">
-      <div class="section-title">
-         <span>Student Profile * Summer Semester 2013</span>
-      </div>
+    <!-- Begin Content -->
+    <div class="container">
 
-
-
-      <div class="content_full">
-         <img id="student_pic" src="../img/ningyapprofile.jpg">
-            <div class="profile_content">
-               <h1>Ning Yap</h1>
-               <h3>Ready for an Adventure in Ruby Coding</h3>
-                  <p>It's Day One of Flatiron School, and I'm thinking what the @#%&! did I get myself into? I just finished my last code challenge yesterday at 2 am, totalling about 100+ hours of pre-work in 6 different computing languages. I feel like after conquering that mountain of information, my brain must have retained <i>at least</i> 30% of what I read. But here I am, staring at a browser window, my 3 courageous teammates that I've been grouped with, each scratching our brains wondering <em>"how are we going to create our profile page?"</em> I just can't remember anything. </p>
-               <blockquote class="profile_quote">"I've made a huge mistake" <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Gob Bluth, Arrested Development</h6></blockquote>
-               <h3>Before Flatiron</h3>
-                  <p>I've been working for 4 years in various ad agencies in an IT support capacity. Computer knowledge and fluency is something I've picked up on the job, so learning on the fly is what I'm used to. Prior to that, I've worked in television as a Production Assistant on shows such as VH1's "I Want to Work for Diddy". I have a degree in Music Business from USC. </p>
-
-
-      </div>
-   </div>
-
-
-
-</div>
-<div class="clear">
-</div>
-
-      <!-- End Main Content -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- Begin Footer Widgets -->
-  <div class="footer-widgets clearfix">
-    <div class="footer-widgets-wrap clearfix">
-
-      <div id="text-4" class="footer-widget widget_text">
-        <h2 class="widgettitle">Contact Us</h2>
-        <div class="textwidget">
-          <p>
-            <a href="33 West 26th St, 2nd Floor, New York, NY 10010">The Flatiron School<br/>33 West 26th St, 2nd Floor<br/>New York, NY 10010</a><br/><br/>
-            <i class="icon-phone" style="padding-right: 3px;"></i> (347) 729-7911<br/> <i class="icon-envelope" style="padding-right: 3px;"></i> <a href="mailto:info@flatironschool.com">info@flatironschool.com</a>
-          </p>
+      <!-- Begin Splash Image -->
+      <div class="top-page-title">
+        <div>
+          <img src="../img/ning_profile_610_610.jpg" class="student_pic">
         </div>
       </div>
+      <! -- End Splash Image -->
 
-      <div id="recent-posts-2" class="footer-widget widget_recent_entries">
-        <h2 class="widgettitle">
-          <a href="http://blog.flatironschool.com">Recent Blog Posts</a>
-        </h2>
-        <ul>
-          <li><a href="http://blog.flatironschool.com/post/47616402524/dearest-mama-i-must-tell-you-what-my-opinion-of">
-            Reconstructionist Ada Lovelace</a></li>
-          <li><a href="http://blog.flatironschool.com/post/47427005620/cacioppo-speaking-at-flatiron-school-about-my">
-          Cacioppo speaking at Flatiron School</a></li>
-          <li><a href="http://blog.flatironschool.com/post/44617956534/jongrover-is-dropping-some-serious-front-end">
-            Jon Grover dropping front-end knowledge</a></li>
-          <li><a href="http://blog.flatironschool.com/post/42945124796/programmer-of-the-day-grace-hopper">
-            Programmer Of The Day: Grace Hopper</a></li>
-          <li><a href="http://blog.flatironschool.com/post/42519135705/programer-of-the-day-matz">
-            Programer of the day: Matz!</a></li>
-        </ul>
-      </div>
+      <!-- Begin Title Content -->
+      <div class="page-title">
+        <h4 class="ib_main_header">Ning Yap</h4>
+        <div class="social-icons">
+          <a href="https://twitter.com/ningbit"><i class="icon-twitter ib-social-icons"></i></a>
+          <a href="http://www.linkedin.com/in/ningyap"><i class="icon-linkedin-sign ib-social-icons"></i></a>
+          <a href="https://github.com/ningbit"><i class="icon-github ib-social-icons"></i></a>
+          <a href="#"><i class="icon-rss ib-social-icons"></i></a>
+        </div>
 
-      <div id="ok-twitter-4" class="footer-widget ok-twitter">
-        <div class="twitter-widget">
-          <h2 class="widgettitle">
-            Twitter <a href="http://twitter.com/flatironschool">@FlatironSchool</a>
-          </h2>
-
-          <script>Chirp({user:'FlatironSchool', max:2 })</script>
+        <div class="section section-testimonials-curriculum quote-div">
+          <div id="testimonial-slider" class="flexslider">
+            <ul class="testimonials slides">
+              <li id="text-7" class="widget_text" style="list-style: none; display: list-item;">
+                <div class="textwidget">
+                  <h3>"Write Code Everyday" --  Sandi Metz</h3>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
+      <!-- End Title Content -->
 
+      <!-- Some Content on Full Width -->
+      <div id="random-full-width-content" class="this-div-is-just-a-helpful-container">
+        <div id="scroll-about" class="section section-services">
+          <div class="section-title">
+            <span class="actual-title">About</span>
+            <div class="go-to-top"><a href="#scroll-header">Go To Top</a></div>
+          </div>
+
+          <div class="services-wrap" id="equalize">
+
+            <div id="ok-text-column-2" class="column ok-text-column" style="height: 204px;">
+              <div class="services">
+                <div class="services-title"><h3>Biography</h3></div>
+                <div class="clear"></div>
+                <p>
+                  Adding tech skills to my toolbelt has been my MO for the past 5 years. I started as an intern at an engineering firm doing local PC support. Moved onto PC/Mac support at a few large ad-agencies. Now I'm at the Flatiron School learning to build web apps.
+                </p>
+              </div>
+            </div>
+
+            <div id="ok-text-column-3" class="column ok-text-column" style="height: 204px;">
+              <div class="services">
+                <div class="services-title"><h3>Education</h3></div>
+                <div class="clear"></div>
+                <ul>
+                  <li>University of Southern California, 2006, Music Industry</li>
+
+                </ul>
+              </div>
+            </div>
+
+            <div id="ok-text-column-4" class="column ok-text-column" style="height: 204px;">
+              <div class="services">
+                <div class="services-title"><h3>Work</h3></div>
+                <div class="clear"></div>
+                <p>
+                  <h4>Mike's Tech Shop, IT Support Consultant</h4>
+                  2010-2013 Fixing problems and taking names
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="random-full-width-content" class="this-div-is-just-a-helpful-container">
+            <div class="section section-services">
+              <div id="scroll-coder-cred" class="section-title">
+                <span class="actual-title">Coder Cred</span>
+                <div class="go-to-top"><a href="#scroll-header">Go To Top</a></div>
+              </div>
+
+              <div class="services-wrap section coder-cred" id="equalize">
+
+                <div class="column fourth">
+                  <a href="http://www.github.com/ningbit" target="_blank"><img src="http://static.001.students.flatironschool.com/images/github_eewang.png" alt="GitHub" width="130px"></a>
+                </div>
+
+                <div class="column fourth">
+                  <a href="http://teamtreehouse.com/ningbit/" target="_blank"><img src="http://static.001.students.flatironschool.com/images/treehouse_eewang.png" alt="Treehouse" width="130px"></a>
+                </div>
+
+                <div class="column fourth">
+                  <a href="http://www.codeschool.com/users/ningbit" target="_blank"><img src="http://static.001.students.flatironschool.com/images/codeschool_eewang.jpg" alt="Code School" width="130"></a>
+                </div>
+
+                <div class="column fourth">
+                  <a href="https://coderwall.com/lightn1ng" target="_blank"><img src="http://static.001.students.flatironschool.com/images/coderwall_eewang.jpeg" alt="Coder Wall" width="130"></a>
+                </div>
+              </div>
+              <! -- End Service -->
+            </div>
+            <! -- End Coder Cred -->
+          </div>
+
+          <div id="random-full-width-content" class="this-div-is-just-a-helpful-container">
+            <div id="scroll-recently" class="section section-services">
+              <div class="section-title">
+                <span class="actual-title">Recently</span>
+                <div class="go-to-top"><a href="#scroll-header">Go To Top</a></div>
+              </div>
+
+              <div class="services-wrap" id="equalize">
+                <div id="ok-text-column-2" class="column ok-text-column" style="height: 204px;">
+                  <div class="services">
+                    <div class="services-title">
+                      <h3>Coding Profiles</h3>
+                    </div>
+                    <div class="clear"></div>
+                    <p>
+                      • <a href="http://www.codeschool.com/users/ningbit">Code School</a><br>
+                      • <a href="http://teamtreehouse.com/ningbit">Treehouse</a><br>
+                      • <a href="http://www.codecademy.com/ningbit">Codecademy</a><br>
+                      • <a href="https://coderwall.com/lightn1ng/">Coder Wall</a><br>
+                    </p>
+                  </div>
+                </div>
+
+                <div id="ok-text-column-3" class="column ok-text-column" style="height: 204px;">
+                  <div class="services">
+                    <div class="services-title"><h3>Favorite Apps</h3>
+                  </div>
+                  <div class="clear"></div>
+                  <p>
+                    • <a href="http://www.twitter.com">Twitter</a><br>
+                    • <a href="http://www.mint.com">Mint.com</a><br>
+                    • <a href="http://www.okcupid.com">OkCupid</a><br>
+                  </p>
+                </div>
+              </div>
+
+              <div id="ok-text-column-4" class="column ok-text-column" style="height: 204px;">
+                <div class="services">
+                  <div class="services-title">
+                    <h3>Flatiron School Projects</h3>
+                  </div>
+                  <div class="clear"></div>
+                  <p>• 8-bit Git (Git-based game/tutorial)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="random-full-width-content" class="this-div-is-just-a-helpful-container">
+            <div id="scroll-favorites" class="section section-services">
+              <div class="section-title">
+                <span class="actual-title">Interests</span>
+                <div class="go-to-top"><a href="#scroll-header">Go To Top</a></div>
+              </div>
+
+              <div class="services-wrap" id="equalize">
+                <div id="ok-text-column-2" class="column ok-text-column" style="height: 204px;">
+                  <div class="services">
+                    <div class="services-title">
+                      <h3>Activities</h3>
+                    </div>
+                    <div class="clear"></div>
+                    <p>
+                      • Bouldering & lead climbing<br>
+                      • Running a marathon<br>
+                      • Snowboarding<br>
+                      • Skateboarding<br>
+                    </p>
+                  </div>
+                </div>
+
+                <div id="ok-text-column-3" class="column ok-text-column" style="height: 204px;">
+                  <div class="services">
+                    <div class="services-title"><h3>Musical Endeavors</h3>
+                  </div>
+                  <div class="clear"></div>
+                  <p>
+                    • Teaching myself cello<br>
+                    • Mozart Piano and Violin Sonata with mom<br>
+                    • Writing and producing electronic pop music<br>
+                  </p>
+                </div>
+              </div>
+
+              <div id="ok-text-column-4" class="column ok-text-column" style="height: 204px;">
+                <div class="services">
+                  <div class="services-title">
+                    <h3>Travel to-do list</h3>
+                  </div>
+                  <div class="clear"></div>
+                  <p>
+                    • Angkor Wat, Cambodia<br>
+                    • Iguazu Falls, Brazil and Argentina<br>
+                    • Budapest, Hungary<br>
+
+
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="clear"></div>
+      </div>
     </div>
   </div>
+
   <div class="clear"></div>
-  <!- End Footer Widgets -->
+  <!-- End Footer Widgets -->
 
   <!-- Begin Footer -->
   <div class="footer">
@@ -216,7 +362,9 @@
         </div>
       </div>
       <div class="footer-text-right">
-        <div class="copyright">&copy; 2013. The Flatiron School.  All Your Rights Are Belong To Us.</div>
+        <div class="copyright">
+          &copy; 2013. The Flatiron School.  All Your Rights Are Belong To Us.
+        </div>
       </div>
       <div class="clear"></div>
     </div>
@@ -224,11 +372,11 @@
   <!-- End Footer -->
 
   <script type='text/javascript'>var custom_js_vars={"flexslider_auto":"enabled"};</script>
-  <script type='text/javascript' src="js/custom.js"></script>
-  <script type='text/javascript' src="js/jquery.flexslider.js"></script>
-  <script type='text/javascript' src="js/jquery.tabs.min.js"></script>
-  <script type='text/javascript' src="js/jquery.fitvids.js"></script>
-  <script type='text/javascript' src="js/jquery.mobilemenu.js"></script>
+  <script type='text/javascript' src="../js/custom.js"></script>
+  <script type='text/javascript' src="../js/jquery.flexslider.js"></script>
+  <script type='text/javascript' src="../js/jquery.tabs.min.js"></script>
+  <script type='text/javascript' src="../js/jquery.fitvids.js"></script>
+  <script type='text/javascript' src="../js/jquery.mobilemenu.js"></script>
 
   <script type="text/javascript">
 
@@ -242,12 +390,11 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-
   </script>
 
   <!-- Start of Async HubSpot Analytics Code -->
   <script type="text/javascript">
-  (function(d,s,i,r) {
+    (function(d,s,i,r) {
 
       if (d.getElementById(i)){return;}
 
@@ -257,8 +404,15 @@
 
       e.parentNode.insertBefore(n, e);
 
-  })(document,"script","hs-analytics",300000);
+    })(document,"script","hs-analytics",300000);
+
+    document.getElementById('#background').scrollIntoView();
   </script>
   <!-- End of Async HubSpot Analytics Code -->
+
+  <script type="text/javascript">
+    jQuery('a').smoothScroll({offset: -152, speed: 1000});
+    jQuery('.go-to-link a').smoothScroll();
+  </script>
 </body>
 </html>
